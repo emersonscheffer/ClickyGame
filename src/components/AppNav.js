@@ -24,7 +24,7 @@ export class AppNav extends Component {
       <div>
         <Navbar color="dark" dark expand="sm"  className="mb-5">
             <Container>
-                <NavbarBrand href='/'>
+                <NavbarBrand href='/clickygame/'>
                     Clicky Game by Emerson
                 </NavbarBrand>
             </Container>
