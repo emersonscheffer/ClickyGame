@@ -1,0 +1,57 @@
+
+.canvasLay {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, 150px);
+  grid-gap: 10px;
+}
+
+.sqFrame {
+  width: 93%;
+  height: 93%;
+  background-color: white;
+  box-shadow: 0px 0px 3px #000000;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: grid;
+  margin-top: 10px;
+  align-self: center;
+  justify-self: center;
+}
+
+.sqFrame:hover {
+  cursor: pointer;
+  box-shadow: 0px 3px 5px #000000;
+  width: 94%;
+  height: 94%;
+}
+
+.insideFrame {
+  width: 95%;
+  height: 95%;
+  align-self: center;
+  justify-self: center;
+  border-radius: 3px;
+  font-size: 35px;
+  background-size: cover;
+}
+#rnd {
+  font-size: 1.3rem;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(25, 35, 50);
+  height: 80px;
+  margin-top: 100px;
+  color: white;
+  display: grid;
+}
+#footer {
+  align-self: center;
+  justify-self: center;
+}
+
